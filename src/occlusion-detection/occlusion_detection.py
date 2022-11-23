@@ -9,7 +9,7 @@ def get_args():
     parser.add_argument('--threshold', '-t', type=float, default=0.5, help='Threshold for occlusion detection')
     return parser.parse_args()
 
-class OcclusionDetection:
+class OcclusionDetection(object):
     def __init__(self, threshold=0.5):
         self.threshold = threshold
 

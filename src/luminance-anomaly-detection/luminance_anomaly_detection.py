@@ -16,7 +16,7 @@ class Luminace(enum.Enum):
     Low = 1
     High = 2
 
-class LuminaceAnomalyDetection:
+class LuminaceAnomalyDetection(object):
     def __init__(self, low_threshold=0.2, high_threshold=0.8):
         self.low_threshold = low_threshold
         self.high_threshold = high_threshold
