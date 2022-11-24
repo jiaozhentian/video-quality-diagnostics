@@ -34,6 +34,7 @@ class OcclusionDetection(object):
         ratio = max_area / (image_src.shape[0] * image_src.shape[1])
         if ratio > self.threshold:
             print('Ratio: ', ratio)
+            
             return True
         else:
             print('Ratio: ', ratio)
