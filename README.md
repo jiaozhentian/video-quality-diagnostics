@@ -1,2 +1,7 @@
 # video-quality-diagnostics
-the quality diagnosis for live video
+
+本工程为视频图像质量异常诊断的项目，包括模糊检测、亮度异常检测、遮挡检测、雪花噪声检测。
+
+本项目代码参考互联网代码，并结合自身进行一定的微调，源码在src下。
+
+本项目完全开源，但希望在使用时加以注明引用。
