@@ -3,7 +3,7 @@ import argparse
 import numpy as np
 
 def get_args():
-    parser = argparse.ArgumentParser(description='Occlusion Detection')
+    parser = argparse.ArgumentParser(description='Blur Detection')
     parser.add_argument('--input', '-i', type=str,
                         default='./data/blur/test6.jpg',
                         help='Input video')
